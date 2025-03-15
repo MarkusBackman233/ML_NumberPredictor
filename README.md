@@ -10,11 +10,13 @@ This project implements a basic multi-layer neural network from scratch using C+
 ## How it works
 Since im using Binary Cross-Entropy Loss Function the output exceede 1, therfor i am using 10 features(inputs) instead.
 
-For input 4 the output layer will be:
-0.000 0.000 0.001 0.000 0.998 0.000 0.000 0.000 0.000 0.000 == 5
-
+For an input of 4 the output layer will be:
+```
+0.000 0.000 0.001 0.000 0.998 0.000 0.000 0.000 0.000 0.000
+```
 
 ### Training data
+```
 1 0 0 0 0 0 0 0 0 0
 0 1 0 0 0 0 0 0 0 0
 0 0 1 0 0 0 0 0 0 0
@@ -25,8 +27,9 @@ For input 4 the output layer will be:
 0 0 0 0 0 0 0 1 0 0
 0 0 0 0 0 0 0 0 1 0
 0 0 0 0 0 0 0 0 0 1
-
+```
 ### Training labels
+```
 0 0 0 0 0 0 0 0 0 1
 1 0 0 0 0 0 0 0 0 0
 0 1 0 0 0 0 0 0 0 0
@@ -37,7 +40,7 @@ For input 4 the output layer will be:
 0 0 0 0 0 0 1 0 0 0
 0 0 0 0 0 0 0 1 0 0
 0 0 0 0 0 0 0 0 1 0
-
+```
 ## Dependencies  
 - C++17 or later  
 - [Eigen Library](https://eigen.tuxfamily.org/)  
