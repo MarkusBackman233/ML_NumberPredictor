@@ -47,3 +47,4 @@ For an input of 4 the output layer will be:
 
 ## Usage  
 The neural network is trained on a simple pattern where each number predicts the next. After training, you can input a number (0-9), and the network will attempt to predict the next number with a confidence percentage.  
+
